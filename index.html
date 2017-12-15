@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+</head>
+<style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .bnaner .swiper-container {
+        width: 100%;
+        height: 100%;
+
+    }
+    .bnaner .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+    .myproject .swiper-container {
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+    }
+    .myproject .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+</style>
+<body>
+    <section class="bg_img"></section>
+
+    <section class="nav">
+        <div class="nav_box">
+            <div class="nav_nav">
+                <i class="iconfont icon-jiantouxia"></i>
+            </div>
+            <ul class="nav_big">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVISE</li>
+                <li>PROJECT</li>
+                <li>CONTECT</li>
+            </ul>
+        </div>
+        <ul class="nav_small">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVISE</li>
+            <li>PROJECT</li>
+            <li>CONTECT</li>
+        </ul>
+    </section>
+    <section class="bnaner fool">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                 <div class="swiper-slide"></div>
+                 <div class="swiper-slide"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="about fool">
+        <div class="container">
+            <div class="row">
+                <h2>
+                    ABOUT ME
+                </h2>
+                <h5>
+                    DESIGNER & DEVELOPER
+                </h5>
+                <div class="fen"></div>
+                <p>
+                    热衷于新技术的学习和探讨，热衷页面布局。崇尚化繁为简理念
+                </p>
+                <p>
+                    对互联网发展趋势高兴趣关注，积极配合开发同事完成工作
+                </p>
+                <div class="jianli">
+                    我的简历
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 我可以做 开始 -->
+    <section class="ican fool">
+        <div class="container">
+            <div class="row">
+                <h2>
+                    SERVICES
+                </h2>
+                <div class="dowhat col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon-ican">
+                        <span class="iconfont icon-magic" style="font-size: 29px"></span>
+                    </div>
+                    <h4>GRPHICE</h4>
+                    <p>We are gives you best graphic and website services.</p>
+                </div>
+                <div class="dowhat col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon-ican">
+                        <span class="iconfont icon-leaf" style="font-size: 29px"></span>
+                    </div>
+                    <h4>BRANDING</h4>
+                    <p>We are gives you best graphic and website services.</p>
+                </div>
+                <div class="dowhat col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon-ican">
+                        <span class="iconfont icon-androidcamera" style="font-size: 29px"></span>
+                    </div>
+                    <h4>PHOTOGRAPHY</h4>
+                    <p>We are gives you best graphic and website services.</p>
+                </div>
+                <div class="dowhat col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon-ican">
+                        <span class="iconfont icon-set" style="font-size: 29px"></span>
+                    </div>
+                    <h4>CUSTOMIZATION</h4>
+                    <p>We are gives you best graphic and website services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 我可以做 结束 -->
+
+    <section class="myproject fool">
+        <div class="container">
+            <div class="row">
+                <h2>MY PROJECT</h2>
+                <h5>
+                    ALL   ILLUSTRATIONS   BRANDING   FASHION
+                </h5>
+                <p>
+                    Out believe has request not how comfort evident. Up delight cousins we feeling
+                </p>
+                <p>
+                    minutes. Genius has looked end piqued spring
+                </p>
+                <ul class="fanzhuan">
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide img1"></div>
+                                <div class="swiper-slide img2"></div>
+                                <div class="swiper-slide img3"></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide img1"></div>
+                                <div class="swiper-slide img2"></div>
+                                <div class="swiper-slide img3" ></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide img1"></div>
+                                <div class="swiper-slide img2"></div>
+                                <div class="swiper-slide img3" ></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- GET IN TOUCH 开始-->
+    <section class="touch fool">
+        <div class="container">
+            <div class="row touch-1">
+                <h2>GET IN TOUCH</h2>
+                <p>Out believe has request not how comfort evident. Up delight cousins we feeling</p>
+                <p>minutes. Genius has looked end piqued spring.</p>
+            </div>
+            <div class="row touch-2">
+                <div class="mytell col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <div class="myphone">
+                        <i class="iconfont icon-dianhua" style="font-size: 21px;margin-bottom:10px;display: block;"></i>
+                        <span>PHONE</span>
+                        <p>+1 (123) 456-7890</p>
+                    </div>
+                    <div class="myphone">
+                        <i class="iconfont icon-xinfeng" style="font-size: 21px;margin-bottom:10px;display: block;"></i>
+                        <span>EMAIL</span>
+                        <p>domain@gmail.com</p>
+                    </div>
+                    <div class="myphone">
+                        <i class="iconfont icon-dingwei1" style="font-size: 21px;margin-bottom:10px;display: block;"></i>
+                        <span>ADDRESS</span>
+                        <p>A902, Crosswinds Apt, Western Road,</p>
+                        <p>Brighton, East Sussex, Bath</p>
+                    </div>
+                </div>
+                <div class="utell col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <input type="text" placeholder="Your Name*">
+                    <input type="text" placeholder="Your Name*">
+                    <div class="liuyan">
+                        <textarea name="Massage*" id="Massage*" placeholder="Your Massage*" ></textarea>
+                        <button type="submit" class="send-btn">
+                            <i class="iconfont icon-zhifeijiicon279585" style="font-size: 100%; line-height: 160px;text-align: center; color: #fff;"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GET IN TOUCH 结束 -->
+
+    <!-- END 开始 -->
+    <section class="end">
+        <div class="container">
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                    <a class="iconfont icon-facebookicon" href=""></a>
+                    <a class="iconfont icon-tuite" href=""></a>
+                    <a class="iconfont icon-be" href=""></a>
+                    <a class="iconfont icon-06" href=""></a>
+                </p>
+                <p class="zhuce">
+                    Copyright © 2017.Company name All rights reserved
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- END 结束 -->
+</body>
+</html>
+<script>
+    var swiper = new Swiper('.bnaner .swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    var myswiper1 = new Swiper('.fanzhuan li:nth-of-type(1) .swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'flip',
+        grabCursor: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+    var myswiper2 = new Swiper('.fanzhuan li:nth-of-type(2) .swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'flip',
+        grabCursor: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+    var myswiper3 = new Swiper('.fanzhuan li:nth-of-type(3) .swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'flip',
+        grabCursor: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+</script>
